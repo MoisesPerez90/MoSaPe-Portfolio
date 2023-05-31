@@ -109,6 +109,21 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
+          <div className="carousel-item text-center">
+            <img src="../../public/images/TravelBuddy.JPG" className="mx-auto" width="800" height="400"/>
+            <div className="carousel-caption d-none d-md-block text-bg-secondary p-3 mx-auto opacity-75">
+              <h5>Travel-buddy</h5>
+              <p>This app offers an alternative to crowded tourist attractions, allowing travelers to discover local guides with insider knowledge and create unforgettable memories</p>
+              <div>
+                <button type='button' className="btn btn-outline-dark btn-sm m-2">
+                  <a href="https://github.com/0mar77/travel-buddy">Go to app</a>
+                </button>
+                <button type='button' className="btn btn-outline-dark btn-sm m-2">
+                  <a href="https://github.com/0mar77/travel-buddy">Go to repository</a>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>
